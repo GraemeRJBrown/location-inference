@@ -23,6 +23,9 @@ The primary research question is RQ1. Our intuition is that local entities can i
 RQ1 and RQ2 are targeted to identify entities which are highly valuable for location inference. An understanding of types presenting noise to location inference systems highlight increased effectiveness from their removal i.e. are place names present across a significant number of users? If so, is there a hierarchy of entity types such that certain entities should be considered more locally significant than others? Interestingly, targeted local entities as described may offer efficiency and applicability to users with fewer tweets.
 Finally RQ3 suggests comparing different geographic regions; in summary, larger geographic regions could be expected to have greater variation in local dialect and user interests than compact regions. Comparing corpora helps assesses external validity.
 
+## Solution Architecture
+![Solution Overview](overview.png)
+
 ## Conclusions
 In this paper, we have described a general framework capable of inferring the home location of Twitter users through content-based methods.
 Our contributions include the creation of a comprehensive and novel dataset of Twitter users and their associated tweets from across the United Kingdom and Ireland; and further, constructed an annotated corpus for the evaluation of named entity recognition performance which is available at request to the research community. We have developed a system capable of extracting named entities from tweets using a retrained model supported by part-of-speech tagging and a gazetteer for the identification of geographic entities, which leverages information from the state-of-the-art Google Knowledge Graph for entity linking with unclassified entities. When the extracted entities are provided as features into a location model, results show our best performing model to place 45% of users UK users within 93km of their home location.
