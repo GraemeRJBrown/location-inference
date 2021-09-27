@@ -28,7 +28,7 @@ Finally RQ3 suggests comparing different geographic regions; in summary, larger 
 _Figure 1 - Overview of proposed solution._
 
 ![Named Entity Recognition](named-entity-recognition.png)
-_Figure 2 - Named Entity Recognition (NER) solution._
+_Figure 2 - Named Entity Recognition (NER)._
 
 ## Conclusions
 In this paper, we have described a general framework capable of inferring the home location of Twitter users through content-based methods.
